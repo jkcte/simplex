@@ -144,3 +144,4 @@ def simplexFunction(obj:list, constrict:list[list,int]) -> list:
 
     obj = parseInputObj(obj)
     return simplexMethod(obj[0], [parseInputConstrict(constraint, obj[1]) for constraint in constrict])
+
